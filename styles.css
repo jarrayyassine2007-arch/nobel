@@ -1,0 +1,163 @@
+/* Style global */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;}
+p{
+  font-size: 20px;
+  color: #0f0f10; }
+/* ------------ la page index -------- */
+/* Entête */
+header {
+  background: #1f6feb;
+  height: 140px;}
+header img{
+  float: left;
+  width: 120px;
+  height: 100px;}
+h2{
+  color: white;
+  text-align: center;
+  padding: 10px;}
+/* pied de page */
+footer {
+  background: #1f6feb;
+  color: white;
+  padding: 5px;
+  height: 50px;
+  font-size: 15px;}
+/* Contenu + cadre */
+main iframe {
+  width: 100%;
+  height: 450px;
+  background: white;
+  border-radius: 12px;}
+/* Barre de navigation */
+nav {
+  width: 80%;
+  float: right;}
+nav ul{
+  list-style-type: none;}
+nav li{ 
+  display: inline-block; 
+  width: 25%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 10px 10px;
+  border:2px dotted blue;}
+nav a{
+  text-decoration: none; 
+  color: blue; 
+  font-size: 25px; 
+  text-align: center;
+  padding: 20px 20px;
+  margin: 20px 40px;  }
+/*------ les pages du site------------ */
+/* presentation */
+div aside{
+  float: right;}
+h5{
+  text-align: center;
+  text-transform: uppercase;
+}
+  aside {
+  float: right;
+  border: 1px solid blue;
+  border-radius: 12px;
+  width: 40%;
+  height: 200px;
+  text-align: justify;
+  background-color:white;
+  font-size: 15px;
+  margin-top: 50px;
+  margin-right: 70px;
+  color: rgba(12, 12, 248, 0.863);}
+aside img {
+  float: left;
+  padding: 15px;
+  height: 170px;
+  width: 170px;}
+/* Images et vidéos */
+.pre{
+  float: left;
+  width: 55%;}
+img,video{
+ width: 460px;
+ height :250px;
+ margin-top: 20px;
+ border-radius: 18px;}
+div video{
+  float: left;}
+/* prix */
+table {
+  margin-left: 400px;
+  width: 600px; 
+  margin-top: 15px;}
+th, td {
+  border: 2px solid rgb(141, 141, 194);
+  padding: 5px;
+  text-align: center;}
+th {
+  background: #f0f4ff;
+  color: #0b3d91;}
+.titre{
+  float: right;
+  padding-right: 180px;
+  margin-top: 50px;
+  color: blue;}
+.nobel{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 3px dotted blue;}
+.liste{
+  font-size: 20px;
+  margin-left: 40px;}
+/* Formulaire */
+fieldset{
+  color: black;
+  border: 3px solid;}
+legend{
+  color: purple ; 
+  font-weight: bolder;
+  font-size: x-large;	}
+label{
+  width: 300px;
+  margin-left: 30px;
+  float: left;	
+  font-size: 17px;
+  color:#01050b;
+  font-weight: bold;}
+input,select{
+  width: 200px;
+  height: 20px;
+  margin-left: 30px;
+  float: left;	
+  font-size: 15px;
+  font-weight: bold;}
+output{
+  width: 25px;
+  height: 25px;
+  margin-left: 30px;
+  float: left;	
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid blue;}
+.rad{
+  width: 50px;
+  margin-left: 50px;
+  float: left;
+  color:#20467e;	
+  font-size: 15px;
+  font-weight: bold;
+}
+.but {
+  width: 150px;
+  height: 50px;
+  margin-left: 150px ;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 4px;
+  }

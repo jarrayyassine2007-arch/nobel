@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>payer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Paiement en ligne - Fondation du Prix Nobel</h1>
+    <form>
+        <fieldset>
+        <legend>Calcul Prix Nobel</legend>
+        <label>Montant à payer (en Euro) :</label>
+        <input type="text" name="payer"><br /><br />
+        <label>Choisissez l'unité monétaire :</label>
+        <datalist id="devise" name="payer">
+            <option value="">Choisissez l'unité monétaire pour 1 Euro:</option>
+            <option value="1">Euro (EUR)</option>
+            <option value="3.40">Dinar tunisien (TND) ≈ 3.40 TND</option>
+            <option value="0.88">Livre sterling (GBP) ≈ 0,88 GBP </option>
+            <option value="1.10">Dollar américain (USD) ≈ 1,10 USD</option>
+        </datalist><br /><br />
+        <label>Montant à payer</label>
+        <output class="pay" id="res" name="payer"></output>
+        <input type="button" name="payer" value="Convertir" ><br /><br /><br /><br />
+        <label>Numéro Transaction</label>
+        <output class="pay" name="payer" id="tran" name="payer"></output>
+        <input type="button" value="Générer" name="payer"><br><br>
+        <input class="but" type="submit" value="Envoyer">
+        <input class="but" type="reset" value="Annuler">
+    </form>
+    <script src="controle.js"></script>
+</body>
+</html>
